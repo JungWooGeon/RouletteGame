@@ -1,0 +1,13 @@
+﻿<resources>
+  <string name="app_name">룰렛 게임</string>
+  <string name="start">시작</string>
+  <string name="settings">설정</string>
+  <string name="winning">당첨</string>
+  <string name="list_count">아이템 개수:</string>
+  <string name="first_item">첫 번째:</string>
+  <string name="second_item">두 번째:</string>
+  <string name="third_item">세 번째:</string>
+  <string name="fourth_item">네 번째:</string>
+  <string name="fifth_item">다섯 번째:</string>
+  <string name="sixth_item">여섯 번째:</string>
+</resources>

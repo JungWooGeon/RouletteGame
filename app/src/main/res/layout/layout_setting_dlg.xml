@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/number_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/number_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/list_count" />
+
+            <com.jawon.han.widget.HanSpinner
+                android:id="@+id/number_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/number_label" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/item_1_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_item" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/item_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/item_1_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/item_2_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_item" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/item_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/item_2_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/item_3_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_item" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/item_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/item_3_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_layout_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/item_4_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fourth_item" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/item_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/item_4_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_layout_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/item_5_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fifth_item" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/item_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/item_5_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_layout_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.jawon.han.widget.HanTextView
+                android:id="@+id/item_6_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sixth_item" />
+
+            <com.jawon.han.widget.HanEditText
+                android:id="@+id/item_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/item_6_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.jawon.han.widget.HanButton
+                android:id="@+id/save_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/COMMON_MSG_CONFIRM" />
+
+            <com.jawon.han.widget.HanButton
+                android:id="@+id/cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/COMMON_MSG_CANCEL" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+﻿<resources>
+  <string name="app_name">Sense Roulette Game</string>
+  <string name="start">Start</string>
+  <string name="settings">Impostazioni</string>
+  <string name="winning">Winning!</string>
+  <string name="list_count">Item Count:</string>
+  <string name="first_item">First Item:</string>
+  <string name="second_item">Second Item:</string>
+  <string name="third_item">Third Item:</string>
+  <string name="fourth_item">Fourth Item:</string>
+  <string name="fifth_item">Fifth Item:</string>
+  <string name="sixth_item">Sixth Item:</string>
+</resources>
